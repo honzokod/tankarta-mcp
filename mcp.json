@@ -1,0 +1,14 @@
+{
+    "mcpServers": {
+        "tankarta-mcp": {
+            "type": "stdio",
+            "command": "/opt/homebrew/bin/uvx",
+            "args": [
+                "tankarta-mcp"
+            ],
+            "env": {
+                "TANKARTA_URL": "<skateman's tankarta url>"
+            }
+        }
+    }
+}
