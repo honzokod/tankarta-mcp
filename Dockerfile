@@ -11,4 +11,4 @@ WORKDIR /app
 RUN pip install -U pip uv && \
     uv tool install .
 
-ENTRYPOINT ["uvx", "mcpo", "--port", "8000", "--api-key", "${MCPO_API}}", "--", "tankarta-mcp"]
+ENTRYPOINT ["uvx", "mcpo", "--port", "8000", "--api-key", "${MCPO_API}", "--", "tankarta-mcp"]
