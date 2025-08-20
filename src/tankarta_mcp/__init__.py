@@ -13,7 +13,7 @@ mcp = FastMCP(
 
 
 @mcp.tool
-def price() -> int:
+def price() -> str:
     """Get current discounted price of fuel."""
     response = httpx.get(TANKARTA_URL)
     return response.content.decode("utf-8")
